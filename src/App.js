@@ -148,6 +148,7 @@ class App extends Component {
           <StackedMovieGrid
             movieList={data.Search}
             onSelectMovie={this.handleSelectMovie}
+            columnWidth={300}
           />
         </div>
         <MovieDrawer

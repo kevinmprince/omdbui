@@ -71,6 +71,10 @@ const MovieDrawer = ({ onCloseDrawer, selectedMovie = false }) => {
   );
 };
 
+MovieDrawer.defaultProps = {
+  selectedMovie: undefined
+};
+
 MovieDrawer.propTypes = {
   /**
    * Callback for the drawer being closed
@@ -97,7 +101,7 @@ MovieDrawer.propTypes = {
         Value: PropTypes.string.isRequired
       })
     ).isRequired
-  }).isRequired
+  })
 };
 
 export default MovieDrawer;
