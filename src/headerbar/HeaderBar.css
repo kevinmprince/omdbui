@@ -1,0 +1,14 @@
+/**
+ * Copyright 2019, Kevin Prince
+ */
+.prince-HeaderBar {
+  background: #ebf1f5;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.prince-HeaderBar > h1 {
+  line-height: 0;
+  color: #106ba3;
+}

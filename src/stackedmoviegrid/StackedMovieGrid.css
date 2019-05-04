@@ -1,0 +1,15 @@
+/**
+ * Copyright 2019, Kevin Prince
+ */
+.prince-StackedMovieGrid--poster {
+  background-size: cover;
+}
+
+.prince-StackedMovieGrid--caption {
+  font-size: 18px;
+  font-weight: 700;
+  background: #666;
+  padding: 8px 0px;
+  color: #eee;
+  text-overflow: ellipsis;
+}
